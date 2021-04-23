@@ -20,8 +20,8 @@
     background-image: url("images/1CA63F7E-F4DF-41EB-9409-F1F0E4CA2174.jpg");
     background-position: bottom center;
     background-size: cover;
-    width: 1440px;
-    height: 700px;
+    width: 100%;
+    height: 100vh;
 }
 
 #content{

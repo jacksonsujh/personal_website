@@ -15,7 +15,10 @@
 .cursive{
     font-family: cursive;
 }
-
+#journey{
+    text-align: center;
+    padding-bottom: 30px;
+}
 #navigation{
     background-image: url("images/1CA63F7E-F4DF-41EB-9409-F1F0E4CA2174.jpg");
     background-position: bottom center;
@@ -28,6 +31,7 @@
 
 #content{
     padding: 90px;
+    padding-bottom: 0px;
 }
 
 .content h1{
@@ -50,5 +54,76 @@
     color: tomato;
     padding: 10px 100px;
     border: 2px white solid;
+}
+
+.picIcon{
+    display: inline-block;
+    text-align: right;
+    padding-right: 50px;
+    width: 40%;
+}
+.picText{
+    display: inline-block;
+    width: 530px;
+    padding-left: 50px;
+}
+.flexContainer{
+    display: flex;
+    margin-bottom: 44px;
+}
+.picImage{
+    position: relative;
+    border-radius: 15px;
+    border: solid 3px #99e6ff;
+    box-sizing: border-box;
+    width: 300px;
+    height: 300px;
+}
+#moscropImage{
+    padding-left: 7px;
+}
+#bottomSec{
+    background-color: #eee;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    height: 60vh;
+}
+.bottomIcon{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.BottomPicIcon{
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#copyright{
+    text-align: left;
+    padding-left: 1%;
+    background-color: #eee;
+    width: 100vw;
+    position: relative;
+    left: calc(-50vw + 50%);
+    font-size: 10px;
+}
+.flexContainerBottom{
+    display: flex;
+}
+.picText a{
+    color: #3d8ff5;
+    text-decoration: none;
+    font-size: x-large;
+}
+.picText p{
+    font-family: sans-serif;
+}
+
+.ss{
+    color: #5e9516;
 }
 
